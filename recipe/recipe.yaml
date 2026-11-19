@@ -29,6 +29,11 @@ requirements:
     - cmasher
     - matplotlib-base
     - derivkit
+  extras:
+    lf:
+      - py-lfkit> >="0.1.4"
+    cosmo:
+      - pyccl >= 3
 
 
 tests:
